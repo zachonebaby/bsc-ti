@@ -1,0 +1,423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="zh"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;BSC TI — BSC链炒币人格测试&lt;/title&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Open Graph &amp; Twitter Card Meta Tags（分享时显示漂亮卡片） --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta property="og:title" content="BSC TI — 测测你在BSC meme战场上是哪种degen？"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta property="og:description" content="MBTI过时了！来测你的BSC炒币人格：APE狂猿？钻石手？还是专业接盘侠？纯娱乐自黑测试"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta property="og:image" content="https://picsum.photos/id/1015/1200/630"&gt; &lt;!-- 你可以换成自己的meme图片链接 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta property="og:url" content="https://你的域名/bsc-ti.html"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta property="og:type" content="website"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="twitter:card" content="summary_large_image"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="twitter:title" content="BSC TI — BSC炒币人格测试"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="twitter:description" content="我在BSC TI里测出了XX！快来测测你是哪种meme degen 🐶🚀"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="twitter:image" content="https://picsum.photos/id/1015/1200/630"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Press Start 2P', system-ui;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.meme-bg {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #0a0a0a 0%, #1a3c1a 100%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.meme-bg::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>right: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: url('https://picsum.photos/id/237/2000/1200') center/cover;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0.15;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.question-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.result-type {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 3.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 0 0 20px #22c55e;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.progress-bar {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: width 0.4s ease-in-out;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.doge-head {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: bounce 2s infinite;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes bounce {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0%, 100% { transform: translateY(0); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>50% { transform: translateY(-12px); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="bg-black text-white meme-bg min-h-screen"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="relative z-10 max-w-2xl mx-auto px-4"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Header with Twitter入口 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="flex justify-between items-center py-6 border-b border-green-500/30"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex items-center gap-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="text-5xl doge-head"&gt;🐶&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h1 class="text-4xl font-bold tracking-widest text-green-400"&gt;BSC TI&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-yellow-400 text-sm -mt-1"&gt;BSC链炒币人格测试&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- 你的Twitter入口按钮 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://x.com/Zachone4everai" target="_blank"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">               </span>class="flex items-center gap-2 bg-black border border-gray-500 hover:border-sky-400 px-5 py-2 rounded-2xl transition-all text-sm font-medium"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;i class="fab fa-x-twitter text-sky-400"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span&gt;@Zachone4everai&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Start Screen --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="start-screen" class="screen py-10 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mb-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="inline-block bg-green-500/10 border border-green-500 px-8 py-4 rounded-2xl mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-xl text-green-400"&gt;30题 · 30秒出结果&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-gray-300 text-lg mb-8 leading-relaxed max-w-md mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>你是FOMO狂猿？钻石手战士？还是专业接盘侠？&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>在BSC低gas meme战场上，你的炒币灵魂到底是什么？</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button onclick="startTest()"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>class="w-full py-7 bg-gradient-to-r from-green-500 via-yellow-400 to-green-500 hover:brightness-110 text-black font-bold text-2xl rounded-3xl transition-all active:scale-95 shadow-2xl shadow-green-500/50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>🚀 APE IN 开始测试</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mt-12 text-xs text-gray-500 flex justify-center gap-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;🔥 BSC专属&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;🐸 PEPE · DOGE · FLOKI&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;💎 Diamond Hands&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Test Screen --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="test-screen" class="screen hidden py-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex justify-between text-xs mb-2 text-green-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;问题 &lt;span id="current-q"&gt;1&lt;/span&gt;/30&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span id="progress-text"&gt;3%&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="h-2.5 bg-gray-800 rounded-full overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="progress-bar" class="progress-bar h-full bg-gradient-to-r from-green-400 to-yellow-400 w-0"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="question-card bg-zinc-900 border border-green-500/30 rounded-3xl p-8 mb-8 min-h-[140px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p id="question-text" class="text-lg leading-relaxed text-white"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="options" class="space-y-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- JS动态生成选项 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex justify-between mt-10 text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button onclick="prevQuestion()"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>class="flex items-center gap-2 text-gray-400 hover:text-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i class="fas fa-arrow-left"&gt;&lt;/i&gt; 上一题</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span id="question-counter" class="font-mono text-green-400"&gt;1 / 30&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button onclick="nextQuestion()" id="next-btn"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>class="flex items-center gap-2 text-gray-400 hover:text-white opacity-50 pointer-events-none"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>下一题 &lt;i class="fas fa-arrow-right"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Result Screen --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="result-screen" class="screen hidden py-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="text-center mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="inline-flex items-center gap-4 bg-zinc-900 border-2 border-green-400 rounded-3xl px-10 py-4 mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span id="result-emoji" class="text-6xl"&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-green-400 text-xs tracking-widest"&gt;你的BSC炒币人格&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 id="result-type" class="result-type font-bold text-green-400"&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="mb-8 px-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-xs text-gray-400 mb-1"&gt;匹配度&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex items-center gap-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex-1 h-3 bg-gray-800 rounded-full overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div id="match-bar" class="h-full bg-gradient-to-r from-yellow-400 to-green-400 transition-all" style="width: 0%"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span id="match-percent" class="text-5xl font-bold text-yellow-400 tabular-nums"&gt;88%&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="bg-zinc-900 border border-yellow-400/30 rounded-3xl p-8 mb-10 text-left"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p id="result-desc" class="text-base leading-relaxed text-gray-200"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- 维度 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mb-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="text-green-400 text-sm mb-4 flex items-center gap-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i class="fas fa-chart-bar"&gt;&lt;/i&gt; 你的炒币维度</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div id="dimensions" class="grid grid-cols-2 gap-4 text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- JS生成 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-2 gap-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button onclick="restartTest()"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>class="py-6 border-2 border-green-500 text-green-400 rounded-3xl hover:bg-green-500/10 font-medium"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>🔄 再测一次</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button onclick="shareResult()"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>class="py-6 bg-gradient-to-r from-green-500 to-emerald-500 text-black font-bold rounded-3xl hover:brightness-110"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>📤 分享结果到 X / 朋友圈</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="text-center mt-10 text-[10px] text-gray-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>纯属娱乐 · BSC degen自黑测试 · 炒币有风险 · 请理性投资</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// ==================== 数据 ====================</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const types = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"APE": { name: "APE IN 狂猿", emoji: "🐵", color: "#eab308",<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                     </span>desc: "你一看到新meme就双手失控，所有资金直接梭哈！BSC launch就是你的主战场，FOMO是你的人生信条。今晚吃土，明天上月球！" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"DIAMOND": { name: "钻石手战士", emoji: "💎", color: "#22d3ee",<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>desc: "别人割肉你HODL，哪怕项目rug了你也坚信‘community is strong’。你在BSC meme海里是最硬的那块石头。" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"RUG VICTIM": { name: "专业接盘侠", emoji: "🥲", color: "#ef4444",<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>desc: "你总是精准在顶部接盘，深信KOL和白皮书。项目方跑路后你还会默默安慰自己‘下次一定’。善良的BSC韭菜代表。" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"SNIPER": { name: "狙击手", emoji: "🎯", color: "#a78bfa",<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>desc: "你专盯BSC新币launch，gas war高手，经常0.1秒内完成买入。但也经常买到假底或蜜罐。你的交易记录就是狙击战场。" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"PAPER HANDS": { name: "纸手之王", emoji: "📄", color: "#f97316",<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                             </span>desc: "币一绿就all in，一红就panic sell。你为BSC贡献了大量手续费，是项目方最喜欢的流动性提供者。" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"KOL FOLLOWER": { name: "喊单信徒", emoji: "📢", color: "#14b8a6",<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                              </span>desc: "KOL说买你就买，KOL说卖你就卖。你的钱包是KOL的提款机，但你乐此不疲。" }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>let scores = { ape:0, fomo:0, risk:0, diamond:0, paper:0, panic:0, sniper:0, research:0, follower:0, conservative:0, resilient:0 };</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let currentQuestion = 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let answers = [];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const questions = [</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ q: "BSC上一个新meme币刚launch，合约刚验，LP刚锁，你会？",</p>
+<p class="p1"><span class="Apple-converted-space">              </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "立刻All in！怕错过百倍，FOMO上头", score: { ape:5, fomo:4, risk:4 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "先查团队钱包、看rug风险", score: { sniper:4, research:5 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "等KOL喊单再跟", score: { follower:5 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "完全不碰，继续HODL老币", score: { diamond:4, conservative:4 } }</p>
+<p class="p1"><span class="Apple-converted-space">              </span>]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>},</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ q: "持有的meme币突然暴涨300%，第一反应？",</p>
+<p class="p1"><span class="Apple-converted-space">              </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "卖一半锁利，然后冲下一个", score: { paper:4 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "全仓HODL！我们要上月球", score: { diamond:5, resilient:3 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "怕归零，全部卖出", score: { paper:5, panic:4 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "再加仓！这只是开始", score: { ape:4, risk:3 } }</p>
+<p class="p1"><span class="Apple-converted-space">              </span>]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>},</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ q: "项目方rug pull了，你的反应是？",</p>
+<p class="p1"><span class="Apple-converted-space">              </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "骂两句，然后继续找下一个ape in", score: { resilient:5, ape:3 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "发帖控诉，号召维权", score: { follower:2 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "默默接受，继续相信下一个", score: { naive:4 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "早就预感到了，我只投老币", score: { conservative:5 } }</p>
+<p class="p1"><span class="Apple-converted-space">              </span>]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>},</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// ... 你可以继续在这里添加更多题目直到30题（复制类似格式即可）</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 当前为了代码简洁只放4题，你实际使用时补充到30题</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ q: "你在BSC上最常用的操作是？",</p>
+<p class="p1"><span class="Apple-converted-space">              </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "狙击新币，gas war高手", score: { sniper:5 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "研究白皮书和社区", score: { research:5 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "跟KOL喊单", score: { follower:5 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "长期HODL熟悉的狗币", score: { diamond:5 } }</p>
+<p class="p1"><span class="Apple-converted-space">              </span>]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>},</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ q: "看到别人晒10倍收益，你会？",</p>
+<p class="p1"><span class="Apple-converted-space">              </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "立刻问地址，怕错过", score: { fomo:5 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "冷静分析真实性", score: { research:4 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "表面恭喜心里酸", score: { envy:3 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "无动于衷，继续自己的", score: { diamond:3 } }</p>
+<p class="p1"><span class="Apple-converted-space">              </span>]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 建议你再添加20+题，保持选项格式一致</p>
+<p class="p1"><span class="Apple-converted-space">        </span>];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function calculateResult() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let maxScore = -1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let mainType = "APE";</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const apeScore = scores.ape + scores.fomo + scores.risk;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const diamondScore = scores.diamond + scores.resilient;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const paperScore = scores.paper + scores.panic;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const sniperScore = scores.sniper + scores.research;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const followerScore = scores.follower;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (apeScore &gt; maxScore) { maxScore = apeScore; mainType = "APE"; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (diamondScore &gt; maxScore) { maxScore = diamondScore; mainType = "DIAMOND"; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (paperScore &gt; maxScore) { maxScore = paperScore; mainType = "PAPER HANDS"; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (sniperScore &gt; maxScore) { maxScore = sniperScore; mainType = "SNIPER"; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (followerScore &gt; maxScore) { maxScore = followerScore; mainType = "KOL FOLLOWER"; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const match = Math.min(96, 68 + Math.floor(Math.random() * 28));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>return { type: mainType, match: match };</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function renderDimensions() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const dims = document.getElementById('dimensions');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>dims.innerHTML = `</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-zinc-900 p-5 rounded-2xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex justify-between text-xs mb-2"&gt;&lt;span&gt;FOMO程度&lt;/span&gt;&lt;span class="text-yellow-400"&gt;${70 + Math.floor(Math.random()*25)}%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="h-2 bg-gray-700 rounded-full"&gt;&lt;div class="h-full bg-yellow-400 rounded-full" style="width: ${70 + Math.floor(Math.random()*25)}%"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-zinc-900 p-5 rounded-2xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex justify-between text-xs mb-2"&gt;&lt;span&gt;钻石手指数&lt;/span&gt;&lt;span class="text-cyan-400"&gt;${55 + Math.floor(Math.random()*35)}%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="h-2 bg-gray-700 rounded-full"&gt;&lt;div class="h-full bg-cyan-400 rounded-full" style="width: ${55 + Math.floor(Math.random()*35)}%"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-zinc-900 p-5 rounded-2xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex justify-between text-xs mb-2"&gt;&lt;span&gt;被RUG概率&lt;/span&gt;&lt;span class="text-red-400"&gt;${40 + Math.floor(Math.random()*35)}%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="h-2 bg-gray-700 rounded-full"&gt;&lt;div class="h-full bg-red-400 rounded-full" style="width: ${40 + Math.floor(Math.random()*35)}%"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-zinc-900 p-5 rounded-2xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex justify-between text-xs mb-2"&gt;&lt;span&gt;狙击能力&lt;/span&gt;&lt;span class="text-purple-400"&gt;${60 + Math.floor(Math.random()*30)}%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="h-2 bg-gray-700 rounded-full"&gt;&lt;div class="h-full bg-purple-400 rounded-full" style="width: ${60 + Math.floor(Math.random()*30)}%"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function showQuestion() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (currentQuestion &gt;= questions.length) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>finishTest();</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const q = questions[currentQuestion];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('question-text').textContent = q.q;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('current-q').textContent = currentQuestion + 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('question-counter').textContent = `${currentQuestion + 1} / ${questions.length}`;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const progress = Math.round(((currentQuestion) / questions.length) * 100);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('progress-bar').style.width = `${progress}%`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('progress-text').textContent = `${progress}%`;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const container = document.getElementById('options');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>container.innerHTML = '';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>q.options.forEach((opt, i) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const btn = document.createElement('button');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>btn.className = `w-full text-left p-6 rounded-2xl border border-transparent hover:border-green-400 bg-zinc-900 hover:bg-zinc-800 transition-all text-base`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>btn.innerHTML = `&lt;span class="text-green-400 mr-3"&gt;${String.fromCharCode(65 + i)}.&lt;/span&gt;${opt.text}`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>btn.onclick = () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>answers[currentQuestion] = i;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Object.keys(opt.score).forEach(k =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>if (scores[k] !== undefined) scores[k] += opt.score[k];</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>document.getElementById('next-btn').classList.remove('opacity-50', 'pointer-events-none');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p1"><span class="Apple-converted-space">                </span>container.appendChild(btn);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('next-btn').classList.add('opacity-50', 'pointer-events-none');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function nextQuestion() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>currentQuestion++;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>showQuestion();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function prevQuestion() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (currentQuestion &gt; 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>currentQuestion--;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>showQuestion();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function finishTest() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const result = calculateResult();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const info = types[result.type] || types["APE"];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('test-screen').classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('result-screen').classList.remove('hidden');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('result-emoji').textContent = info.emoji;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('result-type').innerHTML = info.name;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('match-percent').textContent = `${result.match}%`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('match-bar').style.width = `${result.match}%`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('result-desc').textContent = info.desc;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>renderDimensions();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function startTest() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('start-screen').classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('test-screen').classList.remove('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>currentQuestion = 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>scores = { ape:0, fomo:0, risk:0, diamond:0, paper:0, panic:0, sniper:0, research:0, follower:0, conservative:0, resilient:0 };</p>
+<p class="p1"><span class="Apple-converted-space">            </span>answers = [];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>showQuestion();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function restartTest() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('result-screen').classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('start-screen').classList.remove('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function shareResult() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const typeName = document.getElementById('result-type').innerText;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const text = `我在BSC TI测试中抽到了「${typeName}」！\n\n快来测测你是哪种BSC炒币degen 🐶🚀\nhttps://你的域名/bsc-ti.html\n#BSCTI #BSC #MemeCoin`;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (navigator.share) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>navigator.share({ title: '我的BSC TI结果', text: text });</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>navigator.clipboard.writeText(text).then(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>alert('结果已复制！直接粘贴到 X / 微信分享即可～');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 初始化</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.onload = () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>console.log('%cBSC TI 已就绪！\n把这个HTML文件部署到 Vercel / GitHub Pages / Netlify 就能拥有可分享的链接了', 'color:#22c55e;font-size:14px');</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 提示：建议补充更多questions直到30题</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
